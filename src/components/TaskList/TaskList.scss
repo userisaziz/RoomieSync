@@ -1,0 +1,32 @@
+// TaskList.scss
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container {
+  overflow-x: auto;
+  flex: 1;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  caption {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+
+  .table-row:hover {
+    background-color: teal;
+  }
+}
